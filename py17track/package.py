@@ -239,9 +239,11 @@ COUNTRY_MAP: Dict[int, str] = {
 
 PACKAGE_STATUS_MAP: Dict[int, str] = {
     0: "Not Found",
+    5: "Unknown",
     10: "In Transit",
     20: "Expired",
     30: "Ready to be Picked Up",
+    32: "Unknown",
     35: "Undelivered",
     40: "Delivered",
     50: "Returned",
